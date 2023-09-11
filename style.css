@@ -1,0 +1,255 @@
+body{
+    background-color: rgb(214, 246, 250);
+    background-size: cover;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Caprasimo', cursive;
+    align-items: center;
+    
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:500px) {
+  span{
+    font-size: 0.5em;
+    font-family: 'Caprasimo', cursive;
+  }
+}
+span{
+  color: #fff;
+}
+section {
+  margin: 10px;
+  font-size: 1em;
+  padding: 10px;
+}
+
+.cover > img{
+  height: 35vh;
+  width: 30vw;
+  margin: 8px;
+}
+.ti a{
+  margin: 10px;
+  text-decoration: none;
+  transition: all 1s;
+}
+.ti:hover{
+  transform: scale(1.1);
+}
+.ti{
+  margin: 10px;
+}
+container {
+  margin-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(5, 175, 175);
+  color: #fff;
+  font-family: 'Cormorant Garamond', serif;
+  width: 10vw;
+ }
+.pool{
+  box-shadow: 4px 4px 4px red;
+    width: 230px;
+    text-align: center;
+    border-right: 2px solid greenyellow;
+    color: rgb(255, 0, 0);
+}
+.weac{
+  margin-left: 10px;
+}
+.weac a{
+  text-decoration: none;
+}
+.wea{
+  transition: all 1s;
+  align-items: ;
+}
+.wea:hover{
+  transform: scale(1.1);
+}
+.key{
+  border-radius: 5%;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(8, 0, 0);
+  margin: 10px;
+  background-color: white;
+}
+.ke{
+  margin: 15px;
+}
+.text{
+  background-color:;
+  width: 70vw;
+  font-family: 'Caprasimo', cursive;
+  font-size: 16px;
+  color: rgb(8, 0, 0);
+  align-content: center;
+  text-align: left;
+}
+.man{
+ background-color: rgb(5, 175, 175); 
+ width: 40vw;
+ border-radius: 6%;
+ align-self: center;
+ background-position: center;
+}
+
+.click{
+  background-image: radial-gradient(pink, blue, yellow);
+  color: white;
+  font-family: 'Caprasimo', cursive;
+  padding: 10px;
+  font-size: large;
+} 
+button{
+  transition: all 1s;
+  background-color: rgb(0, 4, 8);
+  border: 0.5rem solid rgb(5, 175, 175);
+  color: rgb(253, 252, 252);
+  border-radius: 10px;
+}
+button:hover{
+  -webkit-transform: scale(1.1);
+}
+button a{
+  text-decoration: none;
+}
+.medic{
+  font-family: 'Caprasimo', cursive;
+  color: white;
+  font-size: 10px;
+}
+.kei{
+  border-radius: 2%;
+  font-family: 'Caprasimo', cursive;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(10, 0, 0);
+}
+
+footer{
+  width: 100%;
+	background-color: rgb(5, 175, 175);
+	color: #fff;
+	padding: 2rem;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  position: relative;
+}
+.footer img{
+  width: 20px;
+  height: 20px;
+}
+img:hover{
+  transform: scale(1.1);
+  border-radius: 5%;
+}
+.foot{
+  font-family: 'Caprasimo', cursive;
+  font-size: 0.5em;
+  text-align: center;
+  color: #fff;
+  background-color:rgb(5, 175, 175);
+}
+.foo{
+  font-family: 'Caprasimo', cursive;
+  font-size: 1em;
+  text-align: left;
+  color: #fff;
+  background-color:rgb(5, 175, 175);
+  padding: 10px;
+}
+.foo a{
+  font-size: 1em;
+  transition: 1s;
+  color: #fff;
+}
+.foo a:hover{
+  transform: scale(1.1);
+}
+.cove > img{
+  height: 80px;
+  width: 80px;
+  margin: 8px;
+}
+.Book{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 6px;
+  margin: 3%;
+}
+.boo{
+  background-color: #444;
+  height: fit-content ;
+  width: fit-content;
+  display: ;
+  padding: 30px;
+}
+.boo img{
+  width: 140px; 
+  height: 110px;
+}
+.blue{
+  background-image: url(image/cover.avif);
+  background-size: contain;
+  border-radius: 10px;
+  padding: 10px;
+}
+.li{
+  color: white;
+  font-size: 0.8em;
+  font-family: 'Caprasimo', cursive;
+  font-family: 'Cormorant Garamond', serif;    
+  text-align: center;
+  text-transform: uppercase;
+} 
+.Book{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 6px;
+  margin: 3%;
+}
+.boos{
+  background-color: #444;
+  height: fit-content ;
+  width: fit-content;
+  display: ;
+  padding: 30px;
+}
+.boos img{
+  width: 140px; 
+  height: 150px;
+}
+.back{
+  background-image: url(image/cover.avif);
+  background-size: contain;
+}
+.border{
+  margin-top: 10px;
+  width: fit-content;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  margin: 3%;
+  padding: 10px;
+  border: 0.5rem solid skyblue;
+  border-radius: 10px;
+}
+.flex{
+  align-self: center;
+  background-color: whitesmoke;
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  margin: 10px;
+}
+
